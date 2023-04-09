@@ -1,13 +1,13 @@
 {
-    "name": "Sayram999",
-    "short_name": "Sayram999",
+    "name": "Mega555",
+    "short_name": "Mega555",
     "start_url": "/index.php",
-    "background_color": "#f4ede7",
-    "description": "Sayram999",
+    "background_color": "#ffffff",
+    "description": "Mega555",
     "display" : "standalone",
     "orientation" : "portrait",
     "lang": "ru",
-    "theme_color": "#f4ede7",
+    "theme_color": "#ffffff",
     "icons": [
         {
         "src": "/favicons/192x192.png",
