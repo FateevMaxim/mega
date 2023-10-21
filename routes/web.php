@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ReportController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,7 +55,8 @@ Route::middleware('auth')->group(function () {
     Route::post('/message-delete', [ProfileController::class, 'deleteMessage'])->name('message-delete');
     Route::post('/message-add', [ProfileController::class, 'addMessage'])->name('message-add');
 
-
+    Route::get('/track_report_page', [ReportController::class, 'getTrackReportPage'])->name('track_report_page');
+    Route::post('/track_report', [ReportController::class, 'getTrackReport'])->name('track_report');
 
     Route::get('/result', [ProductController::class, 'result'])->name('result');
 
